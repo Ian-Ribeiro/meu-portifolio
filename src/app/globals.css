@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 15 23 42; /* slate-900 */
+  --foreground: 248 250 252; /* slate-50 */
+}
+
+body {
+  color: rgb(var(--foreground));
+  background: rgb(var(--background));
+  scroll-behavior: smooth;
+}
+
+/* Glassmorphism utility */
+.glass {
+  background: rgba(30, 41, 59, 0.7); /* card color */
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.text-gradient {
+  background: linear-gradient(to right, #3b82f6, #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
