@@ -30,7 +30,7 @@ O projeto é um **Single Page Application (SPA)** de portfólio moderno, constru
 
 ### **Integração com API do GitHub**
 - **O que é:** O serviço REST oficial do GitHub.
-- **Por que foi usado:** Na seção de projetos (`ProjectsSection.tsx`), ele busca dinamicamente os repositórios públicos mais recentes do usuário (`Ian-Ribeiro`). Isso garante que o portfólio esteja sempre atualizado sem necessidade de manutenção manual. Foi acoplado com a técnica *ISR (Incremental Static Regeneration)* do Next.js para fazer requisições a cada 24 horas, otimizando o carregamento da página.
+- **Por que foi usado:** Na seção de projetos (`ProjectsSection.tsx`), ele busca dinamicamente os repositórios públicos mais recentes do usuário (`ianrib`). Isso garante que o portfólio esteja sempre atualizado sem necessidade de manutenção manual. Foi acoplado com a técnica *ISR (Incremental Static Regeneration)* do Next.js para fazer requisições a cada 24 horas, otimizando o carregamento da página.
 
 ### **Vercel**
 - **O que é:** Plataforma de nuvem otimizada para frameworks de frontend e sites estáticos.

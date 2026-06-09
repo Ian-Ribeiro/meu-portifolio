@@ -1,7 +1,7 @@
 import ProjectCard from "./ProjectCard";
 
 // Replace 'vercel' with your actual GitHub username
-const GITHUB_USERNAME = "Ian-Ribeiro";
+const GITHUB_USERNAME = "ianrib";
 
 async function getProjects() {
   // Using Next.js fetch with revalidation (ISR) - revalidates every 24 hours
