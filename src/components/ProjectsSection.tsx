@@ -52,9 +52,9 @@ export default async function ProjectsSection() {
           <p>Nenhum projeto encontrado ou erro ao carregar da API do GitHub.</p>
         </div>
       )}
-      
+
       <div className="mt-16 text-center">
-        <a 
+        <a
           href={`https://github.com/${GITHUB_USERNAME}`}
           target="_blank"
           rel="noopener noreferrer"
